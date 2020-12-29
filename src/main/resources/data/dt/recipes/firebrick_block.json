@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WW",
+    "WW"
+  ],
+  "key": {
+    "W": {
+      "item": "dt:firebrick"
+    }
+  },
+  "result": {
+    "item": "dt:firebrick_block",
+    "count": 1
+  }
+}

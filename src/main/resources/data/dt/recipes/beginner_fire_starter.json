@@ -1,13 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "WWW",
+    "AAA",
     " W ",
     "WWW"
   ],
   "key": {
     "W": {
       "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "minecraft:string"
     }
   },
   "result": {

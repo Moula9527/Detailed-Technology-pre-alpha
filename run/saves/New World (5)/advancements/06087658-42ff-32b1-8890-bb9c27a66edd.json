@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2020-12-26 20:26:47 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2020-12-26 20:26:53 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 2584
+}

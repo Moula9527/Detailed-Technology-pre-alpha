@@ -21,8 +21,8 @@ java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to err
 Caused by: net.minecraft.util.InvalidIdentifierException: Non [a-z0-9/._-] character in path of location: dt:Brick Crucible
 	at net.minecraft.util.Identifier.<init>(Identifier.java:41)
 	at net.minecraft.util.Identifier.<init>(Identifier.java:50)
-	at detailedTechnology.Registration.block(Registration.java:33)
-	at detailedTechnology.Registration.blockWithItem(Registration.java:38)
+	at detailedTechnology.code.Registration.block(Registration.java:33)
+	at detailedTechnology.code.Registration.blockWithItem(Registration.java:38)
 	at detailedTechnology.DetailedTechnology.onInitialize(DetailedTechnology.java:134)
 	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke0(EntrypointUtils.java:50)
 	... 12 more

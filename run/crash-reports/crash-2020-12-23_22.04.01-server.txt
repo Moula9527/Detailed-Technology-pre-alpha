@@ -7,8 +7,8 @@ Description: Ticking block entity
 java.lang.ArrayIndexOutOfBoundsException: -1
 	at java.util.ArrayList.elementData(ArrayList.java:422)
 	at java.util.ArrayList.get(ArrayList.java:435)
-	at detailedTechnology.blockEntity.KilnEntity.tryCraft(KilnEntity.java:110)
-	at detailedTechnology.blockEntity.KilnEntity.tick(KilnEntity.java:125)
+	at detailedTechnology.blockEntity.currentdone.KilnEntity.tryCraft(KilnEntity.java:110)
+	at detailedTechnology.blockEntity.currentdone.KilnEntity.tick(KilnEntity.java:125)
 	at net.minecraft.world.World.tickBlockEntities(World.java:510)
 	at net.minecraft.server.world.ServerWorld.tick(ServerWorld.java:429)
 	at net.minecraft.server.MinecraftServer.tickWorlds(MinecraftServer.java:871)
@@ -27,12 +27,12 @@ Thread: Server thread
 Stacktrace:
 	at java.util.ArrayList.elementData(ArrayList.java:422)
 	at java.util.ArrayList.get(ArrayList.java:435)
-	at detailedTechnology.blockEntity.KilnEntity.tryCraft(KilnEntity.java:110)
-	at detailedTechnology.blockEntity.KilnEntity.tick(KilnEntity.java:125)
+	at detailedTechnology.blockEntity.currentdone.KilnEntity.tryCraft(KilnEntity.java:110)
+	at detailedTechnology.blockEntity.currentdone.KilnEntity.tick(KilnEntity.java:125)
 
 -- Block entity being ticked --
 Details:
-	Name: dt:kiln // detailedTechnology.blockEntity.KilnEntity
+	Name: dt:kiln // detailedTechnology.blockEntity.currentdone.KilnEntity
 	Block: Block{dt:kiln}[facing=north]
 	Block location: World: (4,4,6), Chunk: (at 4,0,6 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
 	Block: Block{dt:kiln}[facing=north]

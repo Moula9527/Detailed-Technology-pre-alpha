@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "dt:coke"
+    }
+  },
+  "result": {
+    "item": "dt:coke_block",
+    "count": 1
+  }
+}

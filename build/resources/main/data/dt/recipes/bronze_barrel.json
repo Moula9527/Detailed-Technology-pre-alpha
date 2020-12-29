@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W W",
+    "W W",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "dt:bronze_plate"
+    }
+  },
+  "result": {
+    "item": "dt:bronze_barrel",
+    "count": 1
+  }
+}

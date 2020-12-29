@@ -30,7 +30,7 @@ Caused by: java.lang.ExceptionInInitializerError
 	... 14 more
 Caused by: java.lang.IllegalArgumentException: Cannot set property DirectionProperty{name=facing, clazz=class net.minecraft.util.math.Direction, values=[north, south, west, east]} as it does not exist in Block{minecraft:air}
 	at net.minecraft.state.State.with(State.java:114)
-	at detailedTechnology.blocks.BurningCharcoalHeap.<init>(BurningCharcoalHeap.java:37)
+	at detailedTechnology.blocks.currentdone.BurningCharcoalHeap.<init>(BurningCharcoalHeap.java:37)
 	at detailedTechnology.DetailedTechnology.<clinit>(DetailedTechnology.java:53)
 	... 20 more
 

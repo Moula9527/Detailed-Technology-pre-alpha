@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WBW",
+    "WAW",
+    "W W"
+  ],
+  "key": {
+    "B": {
+      "item": "dt:bronze_plate"
+    },
+    "A": {
+      "item": "dt:copper_rod_frame"
+    },
+    "W": {
+      "item": "dt:firebrick"
+    }
+  },
+  "result": {
+    "item": "dt:coke_oven",
+    "count": 1
+  }
+}

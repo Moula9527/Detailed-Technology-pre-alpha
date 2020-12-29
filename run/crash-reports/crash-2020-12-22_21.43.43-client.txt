@@ -37,8 +37,8 @@ Caused by: java.lang.NullPointerException: The validated object is null
 	at net.minecraft.util.registry.DefaultedRegistry.set(DefaultedRegistry.java:28)
 	at net.minecraft.util.registry.SimpleRegistry.add(SimpleRegistry.java:103)
 	at net.minecraft.util.registry.Registry.register(Registry.java:403)
-	at detailedTechnology.blocks.Ores.<init>(Ores.java:76)
-	at detailedTechnology.blocks.Ores.<clinit>(Ores.java:27)
+	at detailedTechnology.group.currentdone.Ores.<init>(Ores.java:76)
+	at detailedTechnology.group.currentdone.Ores.<clinit>(Ores.java:27)
 	... 21 more
 
 

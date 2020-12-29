@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "facing=north": { "model": "dt:block/bronze_combustion_chamber", "y": 180 },
+    "facing=east":  { "model": "dt:block/bronze_combustion_chamber", "y": 270 },
+    "facing=south": { "model": "dt:block/bronze_combustion_chamber" },
+    "facing=west":  { "model": "dt:block/bronze_combustion_chamber", "y":  90}
+  }
+}
+

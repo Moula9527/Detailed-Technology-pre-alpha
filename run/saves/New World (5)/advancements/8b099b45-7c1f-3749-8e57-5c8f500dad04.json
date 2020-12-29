@@ -1,0 +1,9 @@
+{
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2020-12-27 17:12:08 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 2584
+}

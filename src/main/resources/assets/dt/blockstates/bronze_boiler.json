@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "facing=north": { "model": "dt:block/bronze_boiler", "y": 180 },
+    "facing=east":  { "model": "dt:block/bronze_boiler", "y": 270 },
+    "facing=south": { "model": "dt:block/bronze_boiler" },
+    "facing=west":  { "model": "dt:block/bronze_boiler", "y":  90}
+  }
+}
+

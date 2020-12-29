@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W W",
+    "W W",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "dt:firebrick"
+    }
+  },
+  "result": {
+    "item": "dt:firebrick_combustion_chamber",
+    "count": 1
+  }
+}

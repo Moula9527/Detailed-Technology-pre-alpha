@@ -1,7 +1,11 @@
 package detailedTechnology.recipe;
 
-import detailedTechnology.DetailedTechnology;
-import detailedTechnology.blocks.Ores;
+import detailedTechnology.group.Machines;
+import detailedTechnology.group.currentdone.Armors;
+import detailedTechnology.group.currentdone.Materials;
+import detailedTechnology.group.currentdone.Ores;
+import detailedTechnology.group.currentdone.Tools;
+import detailedTechnology.recipe.general.ShapelessRecipe;
 import net.minecraft.block.Blocks;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.item.Item;
@@ -165,50 +169,57 @@ public class AnvilRecipe {
                 new int[]{1, 1}, bronzePlate,1);
 
         addRecipe("hammer",1,new Item[]{bronzeRod, bronzeRod,bronzeRod, bronzeRod},
-                new int[]{3,3,3,3}, DetailedTechnology.bronzeRodFrame,1);
+                new int[]{3,3,3,3}, Materials.bronzeRodFrame,1);
         addRecipe("hammer",1,new Item[]{copperRod, copperRod,copperRod, copperRod},
-                new int[]{3,3,3,3}, DetailedTechnology.copperRodFrame,1);
+                new int[]{3,3,3,3}, Materials.copperRodFrame,1);
 
         addRecipe("hammer",1,new Item[]{copperPlate, copperPlate,copperPlate},
-                new int[]{1,1,1}, DetailedTechnology.copperBucket,1);
+                new int[]{1,1,1}, Tools.copperBucket,1);
+        addRecipe("hammer",1,new Item[]{bronzePlate, bronzePlate, bronzePlate},
+                new int[]{2,2,2}, Machines.bronzeBoiler.asItem(),1);
+
         addRecipe("hammer",1,new Item[]{bronzePlate, bronzePlate,bronzePlate, bronzePlate},
-                new int[]{1,1,1,1}, DetailedTechnology.bronzeBoots,1);
+                new int[]{1,1,1,1}, Armors.bronzeBoots,1);
         addRecipe("hammer",1,new Item[]{copperPlate, copperPlate,copperPlate, copperPlate},
-                new int[]{1,1,1,1}, DetailedTechnology.copperBoots,1);
+                new int[]{1,1,1,1}, Armors.copperBoots,1);
         addRecipe("hammer",1,new Item[]{bronzePlate, bronzePlate,bronzePlate, bronzePlate, bronzePlate},
-                new int[]{1,1,1,1,1}, DetailedTechnology.bronzeHelmet,1);
+                new int[]{1,1,1,1,1}, Armors.bronzeHelmet,1);
         addRecipe("hammer",1,new Item[]{copperPlate, copperPlate,copperPlate, copperPlate, copperPlate},
-                new int[]{1,1,1,1,1}, DetailedTechnology.copperHelmet,1);
+                new int[]{1,1,1,1,1}, Armors.copperHelmet,1);
         addRecipe("hammer",1,new Item[]{bronzePlate, bronzePlate,bronzePlate, bronzePlate, bronzePlate, bronzePlate, bronzePlate},
-                new int[]{1,1,1,1,1,1,1}, DetailedTechnology.bronzeLeg,1);
+                new int[]{1,1,1,1,1,1,1}, Armors.bronzeLeg,1);
         addRecipe("hammer",1,new Item[]{copperPlate, copperPlate,copperPlate, copperPlate, copperPlate, copperPlate, copperPlate},
-                new int[]{1,1,1,1,1,1,1}, DetailedTechnology.copperLeg,1);
+                new int[]{1,1,1,1,1,1,1}, Armors.copperLeg,1);
         addRecipe("hammer",1,new Item[]{bronzePlate, bronzePlate,bronzePlate, bronzePlate, bronzePlate, bronzePlate, bronzePlate, bronzePlate},
-                new int[]{1,1,1,1,1,1,1,1}, DetailedTechnology.bronzeChest,1);
+                new int[]{1,1,1,1,1,1,1,1}, Armors.bronzeChest,1);
         addRecipe("hammer",1,new Item[]{copperPlate, copperPlate,copperPlate, copperPlate, copperPlate, copperPlate, copperPlate, copperPlate},
-                new int[]{1,1,1,1,1,1,1,1}, DetailedTechnology.copperChest,1);
+                new int[]{1,1,1,1,1,1,1,1}, Armors.copperChest,1);
 
 
         addRecipe("rasper",1,new Item[]{copperPlate, copperPlate,stick},
-                new int[]{1,1,1}, DetailedTechnology.copperSword,1);
+                new int[]{1,1,1}, Tools.copperSword,1);
         addRecipe("rasper",1,new Item[]{bronzePlate, bronzePlate,stick},
-                new int[]{1,1,1}, DetailedTechnology.bronzeSword,1);
+                new int[]{1,1,1}, Tools.bronzeSword,1);
+        addRecipe("rasper",1,new Item[]{copperPlate, copperPlate,stick,stick,stick},
+                new int[]{1,1,1,1,1}, Tools.copperSaw,1);
+        addRecipe("rasper",1,new Item[]{bronzePlate, bronzePlate,stick,stick,stick},
+                new int[]{1,1,1,1,1}, Tools.bronzeSaw,1);
         addRecipe("rasper",1,new Item[]{copperPlate,stick,stick},
-                new int[]{1,1,1}, DetailedTechnology.copperShovel,1);
+                new int[]{1,1,1}, Tools.copperShovel,1);
         addRecipe("rasper",1,new Item[]{bronzePlate,stick,stick},
-                new int[]{1,1,1}, DetailedTechnology.bronzeShovel,1);
+                new int[]{1,1,1}, Tools.bronzeShovel,1);
         addRecipe("rasper",1,new Item[]{copperPlate, copperIngot,stick,stick},
-                new int[]{1,1,1,1}, DetailedTechnology.copperHoe,1);
+                new int[]{1,1,1,1}, Tools.copperHoe,1);
         addRecipe("rasper",1,new Item[]{bronzePlate, bronzeIngot,stick,stick},
-                new int[]{1,1,1,1}, DetailedTechnology.bronzeHoe,1);
+                new int[]{1,1,1,1}, Tools.bronzeHoe,1);
         addRecipe("rasper",1,new Item[]{copperPlate,copperPlate, copperIngot,stick,stick},
-                new int[]{1,1,1,1,1}, DetailedTechnology.copperAxe,1);
+                new int[]{1,1,1,1,1}, Tools.copperAxe,1);
         addRecipe("rasper",1,new Item[]{bronzePlate,bronzePlate, bronzeIngot,stick,stick},
-                new int[]{1,1,1,1,1}, DetailedTechnology.bronzeAxe,1);
+                new int[]{1,1,1,1,1}, Tools.bronzeAxe,1);
         addRecipe("rasper",1,new Item[]{copperPlate,copperIngot, copperIngot,stick,stick},
-                new int[]{1,1,1,1,1},DetailedTechnology.copperPickaxe,1);
+                new int[]{1,1,1,1,1},Tools.copperPickaxe,1);
         addRecipe("rasper",1,new Item[]{bronzePlate,bronzeIngot, bronzeIngot,stick,stick},
-                new int[]{1,1,1,1,1}, DetailedTechnology.bronzePickaxe,1);
+                new int[]{1,1,1,1,1}, Tools.bronzePickaxe,1);
 
         addRecipe("rasper",1,new Item[]{copperIngot},
                 new int[]{1, 1}, copperRod,1 );
@@ -216,5 +227,12 @@ public class AnvilRecipe {
                 new int[]{1, 1}, tinRod,1);
         addRecipe("rasper",1,new Item[]{bronzeIngot},
                 new int[]{1, 1}, bronzeRod,1);
+
+        addRecipe("rasper",1,new Item[]{copperPlate},
+                new int[]{1}, Ores.copperGear,1 );
+        addRecipe("rasper",1,new Item[]{tinPlate},
+                new int[]{1}, Ores.tinGear,1);
+        addRecipe("rasper",1,new Item[]{bronzePlate},
+                new int[]{1}, Ores.bronzeGear,1);
     }
 }

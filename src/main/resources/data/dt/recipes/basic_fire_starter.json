@@ -6,15 +6,15 @@
     " W "
   ],
   "key": {
-    "W": {
+    "A": {
       "item": "dt:beginner_fire_starter"
     },
-    "A": {
-      "item": "minecraft:charcoal"
+    "W": {
+      "item": "dt:tinder"
     }
   },
   "result": {
     "item": "dt:basic_fire_starter",
-    "count": 4
+    "count": 1
   }
 }

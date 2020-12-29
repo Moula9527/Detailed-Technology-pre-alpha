@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "A A",
+    "A A"
+  ],
+  "key": {
+    "W": {
+      "tag": "planks"
+    },
+    "A": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dt:carpenter_workbench",
+    "count": 1
+  }
+}

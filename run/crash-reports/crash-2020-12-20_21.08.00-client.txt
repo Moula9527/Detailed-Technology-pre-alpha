@@ -53,7 +53,7 @@ Stacktrace:
 -- Click info --
 Details:
 	Menu Type: dt:brick_crucible
-	Menu Class: detailedTechnology.gui.CrucibleScreenHandler
+	Menu Class: detailedTechnology.gui.currentdone.CrucibleScreenHandler
 	Slot Count: 45
 	Slot: 7
 	Button: 0
@@ -67,7 +67,7 @@ Stacktrace:
 
 -- Affected screen --
 Details:
-	Screen name: detailedTechnology.gui.CrucibleScreen
+	Screen name: detailedTechnology.gui.currentdone.CrucibleScreen
 Stacktrace:
 	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:435)
 	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:94)

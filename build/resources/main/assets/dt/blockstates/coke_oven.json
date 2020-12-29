@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "facing=north": { "model": "dt:block/coke_oven", "y": 180 },
+    "facing=east":  { "model": "dt:block/coke_oven", "y": 270 },
+    "facing=south": { "model": "dt:block/coke_oven" },
+    "facing=west":  { "model": "dt:block/coke_oven", "y":  90}
+  }
+}
+

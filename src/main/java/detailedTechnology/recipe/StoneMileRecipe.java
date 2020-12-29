@@ -1,7 +1,7 @@
 package detailedTechnology.recipe;
 
-import detailedTechnology.DetailedTechnology;
-import detailedTechnology.blocks.Ores;
+import detailedTechnology.group.currentdone.Materials;
+import detailedTechnology.group.currentdone.Ores;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -65,7 +65,7 @@ public class StoneMileRecipe {
 
         addRecipe(Items.BONE,1,Items.BONE_MEAL,6);
         addRecipe(Items.SUGAR_CANE,1,Items.SUGAR,2);
-        addRecipe(Items.BRICK,1,DetailedTechnology.brickDust,1);
+        addRecipe(Items.BRICK,1, Materials.brickDust,1);
     }
 
 }

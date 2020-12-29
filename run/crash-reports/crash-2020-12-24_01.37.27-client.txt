@@ -6,8 +6,8 @@ Description: Rendering screen
 
 java.lang.ArrayIndexOutOfBoundsException: 1
 	at net.minecraft.screen.ArrayPropertyDelegate.get(ArrayPropertyDelegate.java:12)
-	at detailedTechnology.gui.KilnScreenHandler.getName(KilnScreenHandler.java:54)
-	at detailedTechnology.gui.KilnScreen.render(KilnScreen.java:34)
+	at detailedTechnology.gui.currentdone.KilnScreenHandler.getName(KilnScreenHandler.java:54)
+	at detailedTechnology.gui.currentdone.KilnScreen.render(KilnScreen.java:34)
 	at net.minecraft.client.render.GameRenderer.render(GameRenderer.java:616)
 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1048)
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:681)
@@ -29,12 +29,12 @@ A detailed walkthrough of the error, its code path and all known details is as f
 Thread: Render thread
 Stacktrace:
 	at net.minecraft.screen.ArrayPropertyDelegate.get(ArrayPropertyDelegate.java:12)
-	at detailedTechnology.gui.KilnScreenHandler.getName(KilnScreenHandler.java:54)
-	at detailedTechnology.gui.KilnScreen.render(KilnScreen.java:34)
+	at detailedTechnology.gui.currentdone.KilnScreenHandler.getName(KilnScreenHandler.java:54)
+	at detailedTechnology.gui.currentdone.KilnScreen.render(KilnScreen.java:34)
 
 -- Screen render details --
 Details:
-	Screen name: detailedTechnology.gui.KilnScreen
+	Screen name: detailedTechnology.gui.currentdone.KilnScreen
 	Mouse location: Scaled: (240, 125). Absolute: (960.000000, 500.000000)
 	Screen size: Scaled: (480, 251). Absolute: (1920, 1001). Scale factor of 4.000000
 
